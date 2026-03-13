@@ -1,7 +1,6 @@
-import bids from '../public/bid-history.json'
-
-export default function Home() {
-  const history = (bids as any[]).sort((a, b) => b.found_date?.localeCompare(a.found_date ?? '') ?? 0)
+export default async function Home() {
+  const res = await fetch('https://raw.githubusercontent.com/HVAC-Automation/kcg-bid-monitor/main/public/bid-history.json', { cache: 'no-store' })
+  const history = (await res.json()).sort((a, b) => (b.found_date ?? '').localeCompare(a.found_date ?? ''))
   const entities = new Set(history.map(b => b.entity)).size
   return (
     <main style={{fontFamily:'-apple-system,sans-serif',margin:'20px',background:'#f5f5f5',minHeight:'100vh'}}>
@@ -9,7 +8,7 @@ export default function Home() {
       <p style={{color:'#888'}}>HVAC · BMS · Refrigeration · Boiler — NJ Public Entities</p>
       <div style={{display:'flex',gap:'20px',margin:'20px 0'}}>
         {[['Total Bids',history.length],['Entities',entities]].map(([label,val])=>(
-          <div key={label as string} style={{background:'white',padding:'15px 25px',borderRadius:'8px',textAlign:'center',boxShadow:'0 1px 3px rgba(0,0,0,.1)'}}>
+          <div key={label} style={{background:'white',padding:'15px 25px',borderRadius:'8px',textAlign:'center',boxShadow:'0 1px 3px rgba(0,0,0,.1)'}}>
             <div style={{fontSize:'2em',fontWeight:'bold',color:'#e94560'}}>{val}</div>
             <div>{label}</div>
           </div>
@@ -18,10 +17,7 @@ export default function Home() {
       <table style={{width:'100%',borderCollapse:'collapse',background:'white',borderRadius:'8px',overflow:'hidden',boxShadow:'0 1px 3px rgba(0,0,0,.1)'}}>
         <thead>
           <tr style={{background:'#1a1a2e',color:'white'}}>
-            <th style={{padding:'12px',textAlign:'left'}}>Date Found</th>
-            <th style={{padding:'12px',textAlign:'left'}}>Entity</th>
-            <th style={{padding:'12px',textAlign:'left'}}>Bid</th>
-            <th style={{padding:'12px',textAlign:'left'}}>Source</th>
+            {['Date Found','Entity','Bid','Source'].map(h=><th key={h} style={{padding:'12px',textAlign:'left'}}>{h}</th>)}
           </tr>
         </thead>
         <tbody>
