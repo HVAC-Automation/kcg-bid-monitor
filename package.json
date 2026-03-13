@@ -1,0 +1,15 @@
+{
+  "name": "kcg-bid-monitor",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "next build",
+    "start": "next start",
+    "dev": "next dev"
+  },
+  "dependencies": {
+    "next": "14.2.3",
+    "react": "^18",
+    "react-dom": "^18"
+  }
+}
