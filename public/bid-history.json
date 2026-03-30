@@ -529,5 +529,41 @@
     "found_date": "2026-03-25",
     "id": "9cf9764b8fe5",
     "status": "new"
+  },
+  {
+    "entity": "Fairfax County Public Schools",
+    "title": "HVAC Filters",
+    "link": "https://www.fcps.edu/get-involved/procurement-services",
+    "source_url": "https://www.fcps.edu/get-involved/procurement-services",
+    "found_date": "2026-03-30",
+    "id": "5ad87e77297d",
+    "status": "new"
+  },
+  {
+    "entity": "Marion P Thomas Charter School",
+    "title": "Northeast Mechanical Services, Inc. Low Bidder on Professional Services for HVAC Systems Maintenance and Service (RFP) in New Jersey at $61,473.00 USD",
+    "link": "https://www.newjerseybids.com/bid-result/professional_services_for_hvac_systems_maintenance_and_service__rfp_-14651728",
+    "source_url": "https://www.newjerseybids.com/government-agencies/essex/marion-p.-thomas-charter-school-1158359/",
+    "found_date": "2026-03-30",
+    "id": "a3ac87db246e",
+    "status": "new"
+  },
+  {
+    "entity": "Pascack Valley High School",
+    "title": "Northeast Mechanical Services, Inc. Low Bidder on Professional Services for HVAC Systems Maintenance and Service (RFP) in New Jersey at $61,473.00 USD",
+    "link": "https://www.newjerseybids.com/bid-result/professional_services_for_hvac_systems_maintenance_and_service__rfp_-14651728",
+    "source_url": "https://www.newjerseybids.com/government-agencies/bergen/pascack-valley-regional-high-school-1137504/",
+    "found_date": "2026-03-30",
+    "id": "311d96720880",
+    "status": "new"
+  },
+  {
+    "entity": "Dover High School",
+    "title": "Northeast Mechanical Services, Inc. Low Bidder on Professional Services for HVAC Systems Maintenance and Service (RFP) in New Jersey at $61,473.00 USD",
+    "link": "https://www.newjerseybids.com/bid-result/professional_services_for_hvac_systems_maintenance_and_service__rfp_-14651728",
+    "source_url": "https://www.newjerseybids.com/government-agencies/morris/dover-school-district-136457/",
+    "found_date": "2026-03-30",
+    "id": "4486ea995410",
+    "status": "new"
   }
 ]
