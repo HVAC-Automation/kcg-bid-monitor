@@ -979,5 +979,50 @@
     "found_date": "2026-06-29",
     "id": "d53766a8bba1",
     "status": "new"
+  },
+  {
+    "entity": "Scotch Plains Fanwood High School",
+    "title": "Bid for Electric and HVAC Upgrades - Due Nov. 14, 2025",
+    "link": "https://www.spfk12.org/departments/business-office",
+    "source_url": "https://www.spfk12.org/departments/business-office",
+    "found_date": "2026-07-01",
+    "id": "231bdf710d7a",
+    "status": "new"
+  },
+  {
+    "entity": "Scotch Plains Fanwood High School",
+    "title": "Bid for Electric and HVAC Upgrades",
+    "link": "https://www.spfk12.org/fs/resource-manager/view/6be3685b-cd03-4ffa-bc7b-e5ce0b6f84f0",
+    "source_url": "https://www.spfk12.org/departments/business-office",
+    "found_date": "2026-07-01",
+    "id": "c25477b148b2",
+    "status": "new"
+  },
+  {
+    "entity": "Marion P Thomas Charter School",
+    "title": "AME, Inc. Low Bidder on Maintenance, Repair & Support of Building Automation Systems and Associated Equipment in New Jersey at $819,660.60 USD",
+    "link": "https://www.newjerseybids.com/bid-result/maintenance__repair___support_of_building_automation_systems_and_associated_equipment-14829302",
+    "source_url": "https://www.newjerseybids.com/government-agencies/essex/marion-p.-thomas-charter-school-1158359/",
+    "found_date": "2026-07-01",
+    "id": "56a72c30fae5",
+    "status": "new"
+  },
+  {
+    "entity": "Pascack Valley High School",
+    "title": "AME, Inc. Low Bidder on Maintenance, Repair & Support of Building Automation Systems and Associated Equipment in New Jersey at $819,660.60 USD",
+    "link": "https://www.newjerseybids.com/bid-result/maintenance__repair___support_of_building_automation_systems_and_associated_equipment-14829302",
+    "source_url": "https://www.newjerseybids.com/government-agencies/bergen/pascack-valley-regional-high-school-1137504/",
+    "found_date": "2026-07-01",
+    "id": "c52b69a78548",
+    "status": "new"
+  },
+  {
+    "entity": "Dover High School",
+    "title": "AME, Inc. Low Bidder on Maintenance, Repair & Support of Building Automation Systems and Associated Equipment in New Jersey at $819,660.60 USD",
+    "link": "https://www.newjerseybids.com/bid-result/maintenance__repair___support_of_building_automation_systems_and_associated_equipment-14829302",
+    "source_url": "https://www.newjerseybids.com/government-agencies/morris/dover-school-district-136457/",
+    "found_date": "2026-07-01",
+    "id": "4de2b07170f3",
+    "status": "new"
   }
 ]
