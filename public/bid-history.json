@@ -1114,5 +1114,14 @@
     "found_date": "2026-07-20",
     "id": "df03bf5e6fa9",
     "status": "new"
+  },
+  {
+    "entity": "Rahway Public Schools",
+    "title": "HVACR Services",
+    "link": "https://www.rahway.net/departments/business",
+    "source_url": "https://www.rahway.net/departments/business",
+    "found_date": "2026-07-29",
+    "id": "3a914535fde7",
+    "status": "new"
   }
 ]
